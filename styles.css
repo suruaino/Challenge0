@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+body{
+    background-color:var(--Light-gray) ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+}
+main{
+    max-width: 19rem;
+    background-color: var(--White);
+}
+main h1{
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+main p{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--Grayish-blue);
+}
